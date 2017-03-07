@@ -6,7 +6,7 @@ public class Task2 {
     private static final int k = 10;
 
     Task2(){
-        System.out.println("Task 2");
+        System.out.println("\nTask 2");
         Fraction fraction[] = new Fraction[k];
 
         Random rand = new Random();
