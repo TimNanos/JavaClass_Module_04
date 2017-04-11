@@ -109,7 +109,7 @@ class Group {
     }
 
     // Print group information
-    public void print(){
+    public void print(){// и также следует соблюдать единнобразие, в класе выще все методы без атрибута доступа, а тут уже с атрибутом
         System.out.println("Students group: ");
         for (int i = 0; i < student3s.length; i++) {
             System.out.println("Student " + (i+1) + " grades: " + student3s[i].getGradesString() + ". Average grade: " + student3s[i].getAverageGrade());
