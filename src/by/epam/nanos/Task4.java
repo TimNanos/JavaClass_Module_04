@@ -40,7 +40,7 @@ public class Task4 {
         }
     }
 }
-
+// лучше всегда соблюдать правило - один файл = один класс
 class Abiturient {
     private int[] grades;
 
